@@ -1,0 +1,27 @@
+{
+	"image": "mcr.microsoft.com/devcontainers/universal:2",
+	"features": {
+		"ghcr.io/devcontainers-community/features/deno:1": {
+			"version": "latest"
+		}
+	},
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-toolsai.jupyter",
+        "ms-python.python",
+        "denoland.vscode-deno",
+        "esbenp.prettier-vscode"
+      ],
+      "settings": {
+        "deno.enable": true,
+        "deno.lint": true,
+        "editor.formatOnSave": true,
+        "python.defaultInterpreterPath": "/usr/bin/python3",
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "jupyter.notebook.defaultKernel": "deno"
+      }
+    }
+  },
+  "postCreateCommand": "deno jupyter --install --force || true"
+}
