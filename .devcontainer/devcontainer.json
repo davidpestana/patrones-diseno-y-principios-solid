@@ -22,5 +22,5 @@
       }
     }
   },
-  "postCreateCommand": "deno jupyter --install --force && mkdir -p ~/.jupyter && echo '{\"kernel_name\": \"deno\"}' > ~/.jupyter/default-kernel.json || true"
+  "postCreateCommand": "deno jupyter --install --force || true"
 }
