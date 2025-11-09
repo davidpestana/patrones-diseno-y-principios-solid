@@ -1,4 +1,9 @@
 {
+	"features": {
+		"ghcr.io/devcontainers-community/features/deno:1": {
+			"version": "latest"
+		}
+	},
   "customizations": {
     "vscode": {
       "extensions": [
@@ -17,5 +22,5 @@
       }
     }
   },
-  "postCreateCommand": "npm install -g deno"
+  "postCreateCommand": "deno jupyter --install --force"
 }
