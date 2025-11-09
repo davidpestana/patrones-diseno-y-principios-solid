@@ -1,10 +1,5 @@
 {
-	"image": "mcr.microsoft.com/devcontainers/universal:2",
-	"features": {
-		"ghcr.io/devcontainers-community/features/deno:1": {
-			"version": "latest"
-		}
-	},
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
   "customizations": {
     "vscode": {
       "extensions": [
@@ -23,5 +18,5 @@
       }
     }
   },
-  "postCreateCommand": "deno jupyter --install --force && mkdir -p ~/.jupyter && echo '{\"kernel_name\": \"deno\"}' > ~/.jupyter/default-kernel.json || true"
+  "postCreateCommand": "curl -fsSL https://deno.land/install.sh | sh && export DENO_INSTALL=$HOME/.deno && export PATH=$DENO_INSTALL/bin:$PATH && deno jupyter --install --force && mkdir -p ~/.jupyter && echo '{\"kernel_name\": \"deno\"}' > ~/.jupyter/default-kernel.json || true",
 }
