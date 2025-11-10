@@ -89,23 +89,31 @@ de los **principios SOLID**, pasando por **patrones de diseño**, hasta **antipa
 ### 🕐 Sesión 1 — Fundamentos y SOLID
 
 **Duración:** ~3h30
+
 **Notebooks:** 1.1, 1.2, 2.1
+
 **Objetivo:** Entender los cinco principios SOLID y la idea general de los patrones de diseño.
+
 
 ---
 
 ### 🕑 Sesión 2 — Patrones creacionales y estructurales
 
 **Duración:** ~3h30
+
 **Notebooks:** 3.1, 3.2, 4.1, 4.2
+
 **Objetivo:** Aprender cómo crear objetos correctamente y estructurar sistemas mediante composición y desacoplamiento.
+
 
 ---
 
 ### 🕒 Sesión 3 — Patrones de comportamiento y antipatrones
 
 **Duración:** ~3h
+
 **Notebooks:** 5.1, 5.2, 6.1, 6.2
+
 **Objetivo:** Aplicar patrones de interacción entre objetos, reconocer malas prácticas y realizar el test final del curso.
 
 ---
