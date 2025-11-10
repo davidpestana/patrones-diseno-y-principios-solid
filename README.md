@@ -8,11 +8,17 @@ No hace falta instalar nada: solo haces *fork*, abres el Codespace y empiezas a 
 ## 🚀 Cómo empezar
 
 1️⃣ Haz **fork** del repo en tu cuenta de GitHub.
+
 2️⃣ En tu fork, pulsa **“Code → Create Codespace on main”**.
+
 3️⃣ Espera a que el entorno cargue (unos minutos).
+
 4️⃣ Abre el primer notebook dentro de `modulo01-solid/`.
+
 5️⃣ Verifica que el kernel activo sea **Deno (TypeScript)**.
+
 6️⃣ Ejecuta celda a celda (▶️) y sigue las instrucciones.
+
 
 Todo el entorno está automatizado: no tienes que instalar Deno ni Jupyter manualmente.
 
