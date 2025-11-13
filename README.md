@@ -8,11 +8,17 @@ No hace falta instalar nada: solo haces *fork*, abres el Codespace y empiezas a 
 ## 🚀 Cómo empezar
 
 1️⃣ Haz **fork** del repo en tu cuenta de GitHub.
+
 2️⃣ En tu fork, pulsa **“Code → Create Codespace on main”**.
+
 3️⃣ Espera a que el entorno cargue (unos minutos).
+
 4️⃣ Abre el primer notebook dentro de `modulo01-solid/`.
+
 5️⃣ Verifica que el kernel activo sea **Deno (TypeScript)**.
+
 6️⃣ Ejecuta celda a celda (▶️) y sigue las instrucciones.
+
 
 Todo el entorno está automatizado: no tienes que instalar Deno ni Jupyter manualmente.
 
@@ -83,23 +89,31 @@ de los **principios SOLID**, pasando por **patrones de diseño**, hasta **antipa
 ### 🕐 Sesión 1 — Fundamentos y SOLID
 
 **Duración:** ~3h30
+
 **Notebooks:** 1.1, 1.2, 2.1
+
 **Objetivo:** Entender los cinco principios SOLID y la idea general de los patrones de diseño.
+
 
 ---
 
 ### 🕑 Sesión 2 — Patrones creacionales y estructurales
 
 **Duración:** ~3h30
+
 **Notebooks:** 3.1, 3.2, 4.1, 4.2
+
 **Objetivo:** Aprender cómo crear objetos correctamente y estructurar sistemas mediante composición y desacoplamiento.
+
 
 ---
 
 ### 🕒 Sesión 3 — Patrones de comportamiento y antipatrones
 
 **Duración:** ~3h
+
 **Notebooks:** 5.1, 5.2, 6.1, 6.2
+
 **Objetivo:** Aplicar patrones de interacción entre objetos, reconocer malas prácticas y realizar el test final del curso.
 
 ---
